@@ -1,3 +1,5 @@
+//https://www.codewars.com/kata/52597aa56021e91c93000cb0
+//CodeWars
 var moveZeros = function (arr) {
     let newarr =[];
     for(let i=0;i<arr.length;i++){
@@ -11,3 +13,7 @@ var moveZeros = function (arr) {
         newarr.push(0);
     return newarr;
   }
+
+console.log(moveZeros([false,1,0,1,2,0,1,3,"a",null]));
+
+console.log(moveZeros([ 1, 2, 1, 1, 3, 1, 0, 0, 0, 0 ]));
